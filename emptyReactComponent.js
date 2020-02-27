@@ -30,3 +30,13 @@ const Input = props => {
 
 export default Input
 
+
+
+
+
+try {
+    const response = await axios.get('quizes.json')
+
+} catch (e) {
+    console.log(e)
+}
